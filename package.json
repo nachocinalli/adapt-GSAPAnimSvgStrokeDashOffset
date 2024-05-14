@@ -1,0 +1,17 @@
+{
+  "name": "adapt-GSAPAnimSvgStrokeDashOffset",
+  "version": "1.0.0",
+  "framework": ">=5.0.0",
+  "homepage": "https://github.com/nachocinalli/adapt-GSAPAnimSvgStrokeDashOffset",
+  "issues": "https://github.com/nachocinalli/adapt-GSAPAnimSvgStrokeDashOffset/issues",
+  "extension": "GSAP Anim Svg StrokeDashOffset",
+  "displayName": "GSAP Anim Svg StrokeDashOffset",
+  "description": "Animate SVG stroke-dashoffset with GSAP",
+  "main": "/js/adapt-GSAPAnimSvgStrokeDashOffset.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPL-3.0",
+  "targetAttribute": "_GSAPAnimSvgStrokeDashOffset"
+}

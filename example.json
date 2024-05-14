@@ -1,0 +1,32 @@
+//course
+"_GSAPAnimSvgStrokeDashOffset": {
+  "_isEnabled": true
+}
+  
+//articles.json
+"_GSAPAnimSvgStrokeDashOffset": {
+  "_isEnabled": true,
+  "percentageScreen": 100,
+  "startAt": "top top",
+  "svgSrcs": [
+   {
+        "xlarge": {
+          "src": "",
+          "_classes": ""
+        },
+        "large": {
+          "src": "",
+          "_classes": ""
+        },
+        "medium": {
+          "src": "",
+          "_classes": ""
+        },
+        "small": {
+          "src": "",
+          "_classes": ""
+        }
+      }
+    ]
+  }
+

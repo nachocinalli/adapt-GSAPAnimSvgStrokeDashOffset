@@ -1,0 +1,690 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "globals": {},
+    "properties": {
+        "pluginLocations": {
+            "type": "object",
+            "required": true,
+            "properties": {
+                "course": {
+                    "type": "object",
+                    "properties": {
+                        "_GSAPAnimSvgStrokeDashOffset": {
+                            "type": "object",
+                            "required": false,
+                            "legend": "GSAP Anim Svg StrokeDashOffset",
+                            "properties": {
+                                "_isEnabled": {
+                                    "type": "boolean",
+                                    "required": false,
+                                    "default": true,
+                                    "title": "Enable",
+                                    "inputType": "Checkbox",
+                                    "validators": [],
+                                    "help": ""
+                                }
+                            }
+                        }
+                    }
+                },
+                "article": {
+                    "type": "object",
+                    "properties": {
+                        "_GSAPAnimSvgStrokeDashOffset": {
+                            "type": "object",
+                            "required": false,
+                            "legend": "GSAP Anim Svg StrokeDashOffset",
+                            "properties": {
+                                "_isEnabled": {
+                                    "type": "boolean",
+                                    "required": false,
+                                    "default": false,
+                                    "title": "Enable",
+                                    "inputType": "Checkbox",
+                                    "validators": [],
+                                    "help": ""
+                                },
+                                "selector": {
+                                    "type": "string",
+                                    "required": false,
+                                    "default": ".article__inner",
+                                    "title": "Selector",
+                                    "inputType": "Text",
+                                    "validators": [],
+                                    "help": ""
+                                },
+                                "showMarkers": {
+                                    "type": "boolean",
+                                    "required": false,
+                                    "default": false,
+                                    "title": "Show Markers",
+                                    "inputType": "Checkbox",
+                                    "validators": [],
+                                    "help": ""
+                                },
+                                "svgSrcs": {
+                                    "type": "object",
+                                    "required": true,
+                                    "title": "Svg Srcs",
+                                    "properties": {
+                                        "xlarge": {
+                                            "type": "object",
+                                            "required": false,
+                                            "legend": "Xlarge",
+                                            "properties": {
+                                                "src": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Src",
+                                                    "inputType": "Asset:image",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "_classes": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Classes",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "percentageScreenHeight": {
+                                                    "type": "number",
+                                                    "required": false,
+                                                    "default": 100,
+                                                    "title": "Percentage Screen Height",
+                                                    "inputType": "Number",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "startAt": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "top 0%",
+                                                    "title": "Start At",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                }
+                                            }
+                                        },
+                                        "large": {
+                                            "type": "object",
+                                            "required": false,
+                                            "legend": "Large",
+                                            "properties": {
+                                                "src": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Src",
+                                                    "inputType": "Asset:image",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "_classes": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Classes",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "percentageScreenHeight": {
+                                                    "type": "number",
+                                                    "required": false,
+                                                    "default": 100,
+                                                    "title": "Percentage Screen Height",
+                                                    "inputType": "Number",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "startAt": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "top 0%",
+                                                    "title": "Start At",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                }
+                                            }
+                                        },
+                                        "medium": {
+                                            "type": "object",
+                                            "required": false,
+                                            "legend": "Medium",
+                                            "properties": {
+                                                "src": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Src",
+                                                    "inputType": "Asset:image",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "_classes": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Classes",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "percentageScreenHeight": {
+                                                    "type": "number",
+                                                    "required": false,
+                                                    "default": 100,
+                                                    "title": "Percentage Screen Height",
+                                                    "inputType": "Number",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "startAt": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "top 0%",
+                                                    "title": "Start At",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                }
+                                            }
+                                        },
+                                        "small": {
+                                            "type": "object",
+                                            "required": false,
+                                            "legend": "Small",
+                                            "properties": {
+                                                "src": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Src",
+                                                    "inputType": "Asset:image",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "_classes": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Classes",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "percentageScreenHeight": {
+                                                    "type": "number",
+                                                    "required": false,
+                                                    "default": 100,
+                                                    "title": "Percentage Screen Height",
+                                                    "inputType": "Number",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "startAt": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "top 0%",
+                                                    "title": "Start At",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "block": {
+                    "type": "object",
+                    "properties": {
+                        "_GSAPAnimSvgStrokeDashOffset": {
+                            "type": "object",
+                            "required": false,
+                            "legend": "GSAP Anim Svg StrokeDashOffset",
+                            "properties": {
+                                "_isEnabled": {
+                                    "type": "boolean",
+                                    "required": false,
+                                    "default": false,
+                                    "title": "Enable",
+                                    "inputType": "Checkbox",
+                                    "validators": [],
+                                    "help": ""
+                                },
+                                "selector": {
+                                    "type": "string",
+                                    "required": false,
+                                    "default": ".block__inner",
+                                    "title": "Selector",
+                                    "inputType": "Text",
+                                    "validators": [],
+                                    "help": ""
+                                },
+                                "showMarkers": {
+                                    "type": "boolean",
+                                    "required": false,
+                                    "default": false,
+                                    "title": "Show Markers",
+                                    "inputType": "Checkbox",
+                                    "validators": [],
+                                    "help": ""
+                                },
+                                "svgSrcs": {
+                                    "type": "object",
+                                    "required": true,
+                                    "title": "Svg Srcs",
+                                    "properties": {
+                                        "xlarge": {
+                                            "type": "object",
+                                            "required": false,
+                                            "legend": "Xlarge",
+                                            "properties": {
+                                                "src": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Src",
+                                                    "inputType": "Asset:image",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "_classes": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Classes",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "percentageScreenHeight": {
+                                                    "type": "number",
+                                                    "required": false,
+                                                    "default": 100,
+                                                    "title": "Percentage Screen Height",
+                                                    "inputType": "Number",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "startAt": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "top 0%",
+                                                    "title": "Start At",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                }
+                                            }
+                                        },
+                                        "large": {
+                                            "type": "object",
+                                            "required": false,
+                                            "legend": "Large",
+                                            "properties": {
+                                                "src": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Src",
+                                                    "inputType": "Asset:image",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "_classes": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Classes",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "percentageScreenHeight": {
+                                                    "type": "number",
+                                                    "required": false,
+                                                    "default": 100,
+                                                    "title": "Percentage Screen Height",
+                                                    "inputType": "Number",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "startAt": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "top 0%",
+                                                    "title": "Start At",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                }
+                                            }
+                                        },
+                                        "medium": {
+                                            "type": "object",
+                                            "required": false,
+                                            "legend": "Medium",
+                                            "properties": {
+                                                "src": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Src",
+                                                    "inputType": "Asset:image",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "_classes": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Classes",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "percentageScreenHeight": {
+                                                    "type": "number",
+                                                    "required": false,
+                                                    "default": 100,
+                                                    "title": "Percentage Screen Height",
+                                                    "inputType": "Number",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "startAt": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "top 0%",
+                                                    "title": "Start At",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                }
+                                            }
+                                        },
+                                        "small": {
+                                            "type": "object",
+                                            "required": false,
+                                            "legend": "Small",
+                                            "properties": {
+                                                "src": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Src",
+                                                    "inputType": "Asset:image",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "_classes": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "",
+                                                    "title": "Classes",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "percentageScreenHeight": {
+                                                    "type": "number",
+                                                    "required": false,
+                                                    "default": 100,
+                                                    "title": "Percentage Screen Height",
+                                                    "inputType": "Number",
+                                                    "validators": [],
+                                                    "help": ""
+                                                },
+                                                "startAt": {
+                                                    "type": "string",
+                                                    "required": false,
+                                                    "default": "top 0%",
+                                                    "title": "Start At",
+                                                    "inputType": "Text",
+                                                    "validators": [],
+                                                    "help": ""
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "component": {
+                        "type": "object",
+                        "properties": {
+                            "_GSAPAnimSvgStrokeDashOffset": {
+                                "type": "object",
+                                "required": false,
+                                "legend": "GSAP Anim Svg StrokeDashOffset",
+                                "properties": {
+                                    "_isEnabled": {
+                                        "type": "boolean",
+                                        "required": false,
+                                        "default": false,
+                                        "title": "Enable",
+                                        "inputType": "Checkbox",
+                                        "validators": [],
+                                        "help": ""
+                                    },
+                                    "selector": {
+                                        "type": "string",
+                                        "required": false,
+                                        "default": ".component__inner",
+                                        "title": "Selector",
+                                        "inputType": "Text",
+                                        "validators": [],
+                                        "help": ""
+                                    },
+                                    "showMarkers": {
+                                        "type": "boolean",
+                                        "required": false,
+                                        "default": false,
+                                        "title": "Show Markers",
+                                        "inputType": "Checkbox",
+                                        "validators": [],
+                                        "help": ""
+                                    },
+                                    "svgSrcs": {
+                                        "type": "object",
+                                        "required": true,
+                                        "title": "Svg Srcs",
+                                        "properties": {
+                                            "xlarge": {
+                                                "type": "object",
+                                                "required": false,
+                                                "legend": "Xlarge",
+                                                "properties": {
+                                                    "src": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "",
+                                                        "title": "Src",
+                                                        "inputType": "Asset:image",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "_classes": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "",
+                                                        "title": "Classes",
+                                                        "inputType": "Text",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "percentageScreenHeight": {
+                                                        "type": "number",
+                                                        "required": false,
+                                                        "default": 100,
+                                                        "title": "Percentage Screen Height",
+                                                        "inputType": "Number",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "startAt": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "top 0%",
+                                                        "title": "Start At",
+                                                        "inputType": "Text",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    }
+                                                }
+                                            },
+                                            "large": {
+                                                "type": "object",
+                                                "required": false,
+                                                "legend": "Large",
+                                                "properties": {
+                                                    "src": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "",
+                                                        "title": "Src",
+                                                        "inputType": "Asset:image",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "_classes": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "",
+                                                        "title": "Classes",
+                                                        "inputType": "Text",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "percentageScreenHeight": {
+                                                        "type": "number",
+                                                        "required": false,
+                                                        "default": 100,
+                                                        "title": "Percentage Screen Height",
+                                                        "inputType": "Number",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "startAt": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "top 0%",
+                                                        "title": "Start At",
+                                                        "inputType": "Text",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    }
+                                                }
+                                            },
+                                            "medium": {
+                                                "type": "object",
+                                                "required": false,
+                                                "legend": "Medium",
+                                                "properties": {
+                                                    "src": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "",
+                                                        "title": "Src",
+                                                        "inputType": "Asset:image",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "_classes": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "",
+                                                        "title": "Classes",
+                                                        "inputType": "Text",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "percentageScreenHeight": {
+                                                        "type": "number",
+                                                        "required": false,
+                                                        "default": 100,
+                                                        "title": "Percentage Screen Height",
+                                                        "inputType": "Number",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "startAt": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "top 0%",
+                                                        "title": "Start At",
+                                                        "inputType": "Text",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    }
+                                                }
+                                            },
+                                            "small": {
+                                                "type": "object",
+                                                "required": false,
+                                                "legend": "Small",
+                                                "properties": {
+                                                    "src": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "",
+                                                        "title": "Src",
+                                                        "inputType": "Asset:image",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "_classes": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "",
+                                                        "title": "Classes",
+                                                        "inputType": "Text",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "percentageScreenHeight": {
+                                                        "type": "number",
+                                                        "required": false,
+                                                        "default": 100,
+                                                        "title": "Percentage Screen Height",
+                                                        "inputType": "Number",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    },
+                                                    "startAt": {
+                                                        "type": "string",
+                                                        "required": false,
+                                                        "default": "top 0%",
+                                                        "title": "Start At",
+                                                        "inputType": "Text",
+                                                        "validators": [],
+                                                        "help": ""
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
